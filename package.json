@@ -17,12 +17,16 @@
     "watch-node": "nodemon dist/index.js",
     "watch-test": "npm run test -- --watchAll",
     "watch-ts": "tsc -w",
-    "run": "npm run build && npm run start",
+    "run": "npm run build-ts && npm run start",
     "fix": "eslint --fix"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.0.0-rc.10",
+    "got": "^11.8.2"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^15.6.2",
