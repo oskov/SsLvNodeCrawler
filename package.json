@@ -1,5 +1,5 @@
 {
-  "name": "node-ts-template",
+  "name": "ss-lv-crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "run": "npm run build-ts && npm run start",
     "fix": "eslint --fix"
   },
-  "author": "",
+  "author": "oskov",
   "license": "ISC",
   "dependencies": {
     "bottleneck": "^2.19.5",
