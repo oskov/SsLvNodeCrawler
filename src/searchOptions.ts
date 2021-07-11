@@ -1,11 +1,11 @@
-import {AdType, SsLvInterval, SsLvLang} from "./types";
+import {AdInterval, AdLang, AdType} from "./types";
 import path from "path";
 
 export interface SearchOptions {
     adType: AdType;
     city: string;
-    interval: SsLvInterval;
-    lang: SsLvLang;
+    interval: AdInterval;
+    lang: AdLang;
 }
 
 export function createInitialUrl(baseUrl: string, options: SearchOptions): string {
